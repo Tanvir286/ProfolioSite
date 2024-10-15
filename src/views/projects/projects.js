@@ -71,7 +71,7 @@ export default function Projects() {
           <ProjectCard
             projectImage={Rent}
             projectName={"FIND HOMEBD"}
-            aboutProject={"Find Bangladesh properties for"}
+            aboutProject={"Find Rent/Sell properties for BD"}
             techStack={"EXPRESS JS,TAILWIND CSS, REACT JS,MONGODB,BOOSTRAP"}
             projectLiveLink="https://find-home-bd.web.app/"
             projectLink=""
@@ -131,12 +131,6 @@ export default function Projects() {
             projectName={"Javascript Error Handling"}
             aboutProject={"This blog is about allows developers to access properties of an object without worrying about TypeError"}
             projectLink="https://dev.to/tanvir_ahmed_286/javascript-error-handling-try-catch-throw-finally-1hkc"
-          />
-          <ProjectCard
-            projectImage={Optional}
-            projectName={"Javascript Optional Chaining"}
-            aboutProject={"This blog is about allows developers to wrap potentially problematic code within a “try” block and specify the course of action in a “catch” block should any errors occur"}
-            projectLink="https://dev.to/tanvir_ahmed_286/javascript-optional-chaning-3m0p"
           />
           <ProjectCard
             projectImage={Optional}
