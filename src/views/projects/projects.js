@@ -138,6 +138,12 @@ export default function Projects() {
             aboutProject={"This blog is about allows developers to wrap potentially problematic code within a “try” block and specify the course of action in a “catch” block should any errors occur"}
             projectLink="https://dev.to/tanvir_ahmed_286/javascript-optional-chaning-3m0p"
           />
+          <ProjectCard
+            projectImage={Optional}
+            projectName={"Javascript Optional Chaining"}
+            aboutProject={"This blog is about allows developers to wrap potentially problematic code within a “try” block and specify the course of action in a “catch” block should any errors occur"}
+            projectLink="https://dev.to/tanvir_ahmed_286/javascript-optional-chaning-3m0p"
+          />
         </SimpleGrid>
       </Box>
     </Box>
