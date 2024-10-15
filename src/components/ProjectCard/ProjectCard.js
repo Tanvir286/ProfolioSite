@@ -35,23 +35,23 @@ export default function ProjectCard(props) {
       }}
     >
       <Box mb={{ base: "10px", "2xl": "10px" }}>
-        <Skeleton
+      <Skeleton
           isLoaded={loadedprojectimg}
           color="white"
           fadeDuration={1}
           height={"100%"}
         >
-          <LazyLoadImage
-            src={projectImage}
-            w={{ base: "100%", "3xl": "100%" }}
-            h={{ base: "100%", "3xl": "250px" }}
-            borderRadius="10px"
-            p="20px"
-            effect="blur"
-            onLoad={() => setloadedprojectimg(true)}
-            // border="2px solid"
-            // borderColor={textColor}
-          />
+          <Flex justify="center">
+            <LazyLoadImage
+              src={projectImage}
+              w={{ base: "100%", "3xl": "100%" }}
+              h={{ base: "100%", "3xl": "250px" }}
+              borderRadius="10px"
+              p="20px"
+              effect="blur"
+              onLoad={() => setloadedprojectimg(true)}
+            />
+          </Flex>
         </Skeleton>
       </Box>
       <Flex flexDirection="column" justify="center" h="100%">
