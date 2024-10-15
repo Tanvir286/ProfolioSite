@@ -15,6 +15,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import contactimg from "../../assets/contact.png";
 import contactimg1 from "../../assets/contact1.png";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 import { AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -87,7 +88,7 @@ export default function Contact() {
             <Box __css={styles}>
               <Box textAlign="center">
                 <Icon
-                  as={FaLinkedinIn}
+                  as={FaLinkedin}
                   width="30px"
                   height="30px"
                   color="inherit"
