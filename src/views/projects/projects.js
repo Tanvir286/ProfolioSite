@@ -82,7 +82,7 @@ export default function Projects() {
             aboutProject={"Find Rent/Sell properties for BD"}
             techStack={"EXPRESS JS,TAILWIND CSS, REACT JS,MONGODB,BOOSTRAP"}
             projectLiveLink="https://find-home-bd.web.app/"
-            projectLink=""
+            projectLink="https://github.com/Tanvir286/Find_BD"
           />
           <ProjectCard
             projectImage={Ecommerce}
