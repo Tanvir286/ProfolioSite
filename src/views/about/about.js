@@ -35,6 +35,7 @@ import Boostrap from "../../assets/icons/Boostrap.png";
 import Tailwindcss from "../../assets/icons/tailwind.png";
 import Firebase from "../../assets/icons/Firebase.png";
 import Next from "../../assets/icons/Nextjs.png";
+import Redux from "../../assets/icons/redux.png";
 import Npm from "../../assets/icons/Npm.png";
 
 
@@ -207,6 +208,7 @@ export default function About() {
           <TechStackCard imagepath={Boostrap} />
           <TechStackCard imagepath={js} />
           <TechStackCard imagepath={react} />
+          <TechStackCard imagepath={Redux} />
           <TechStackCard imagepath={Next} />
           <TechStackCard imagepath={typescript} />
         </SimpleGrid>
@@ -317,7 +319,7 @@ export default function About() {
               <br/>
               Computer Science & Engineering
               <br/>
-              May 2020 - June 2024
+              May 2020 - June 2024 Result: 3.25
               <br/>
             </Text> 
           </Box>
