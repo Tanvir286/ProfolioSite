@@ -238,8 +238,6 @@ export default function About() {
           <TechStackCard imagepath={mongo} />
           <TechStackCard imagepath={Firebase} />
           <TechStackCard imagepath={Npm} />
-          <TechStackCard imagepath={git} />
-          <TechStackCard imagepath={gitlab} />
         </SimpleGrid>
 
         <Flex
