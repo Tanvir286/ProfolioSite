@@ -80,7 +80,7 @@ export default function Projects() {
             projectImage={School}
             projectName={"ACP HIGH SCHOOL"}
             aboutProject={"The website is focused on a high school environment."}
-            techStack={"HTML,CSS,JAVASCRIPT"}
+            techStack={"TAILWIND CSS,JAVASCRIPT,REACT JS"}
             projectLiveLink="https://tanvir286.github.io/School-website/"
             projectLink="https://github.com/Tanvir286/School-website"
           />
