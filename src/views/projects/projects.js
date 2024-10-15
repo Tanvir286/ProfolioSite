@@ -68,14 +68,7 @@ export default function Projects() {
             projectLiveLink="https://react-chat-seven-chi.vercel.app/"
             projectLink="https://github.com/Tanvir286/React-Chat"
           />
-          <ProjectCard
-            projectImage={Rent}
-            projectName={"FIND HOMEBD"}
-            aboutProject={"Find Rent/Sell properties for BD"}
-            techStack={"EXPRESS JS,TAILWIND CSS, REACT JS,MONGODB,BOOSTRAP"}
-            projectLiveLink="https://find-home-bd.web.app/"
-            projectLink=""
-          />
+         
           <ProjectCard
             projectImage={School}
             projectName={"ACP HIGH SCHOOL"}
@@ -83,6 +76,14 @@ export default function Projects() {
             techStack={"TAILWIND CSS,JAVASCRIPT,REACT JS"}
             projectLiveLink="https://tanvir286.github.io/School-website/"
             projectLink="https://github.com/Tanvir286/School-website"
+          />
+           <ProjectCard
+            projectImage={Rent}
+            projectName={"FIND HOMEBD"}
+            aboutProject={"Find Rent/Sell properties for BD"}
+            techStack={"EXPRESS JS,TAILWIND CSS, REACT JS,MONGODB,BOOSTRAP"}
+            projectLiveLink="https://find-home-bd.web.app/"
+            projectLink=""
           />
           <ProjectCard
             projectImage={Ecommerce}
