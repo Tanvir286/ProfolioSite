@@ -94,7 +94,7 @@ export default function Contact() {
                   color="inherit"
                 />
               </Box>
-              <Text textAlign="center">Linkdin ME @</Text>
+              <Text textAlign="center">LINKDIN ME @</Text>
               <Text color={textColorPrimary} textAlign="center" mt="5px">
                <Link to="https://www.linkedin.com/in/tanvir-ahamed261" target="_blank" rel="noopener noreferrer">
                Click Here
