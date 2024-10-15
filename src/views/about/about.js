@@ -278,7 +278,7 @@ export default function About() {
           </Skeleton>
         </Flex>
         <Flex justifyContent="center" alignItems="center" mt="20px">
-          <Link href="https://github.com/Tanvir286" target="blank">
+          <Link href="https://github.com/Tanvir286" target="_blank">
             <Button variant="darkBrand" fontSize="sm" fontFamily="DM Sans">
               Visit Github
             </Button>
@@ -312,7 +312,7 @@ export default function About() {
               />
             </Box>
             <Text textAlign="center">Bachelor's degree</Text>
-            <Text color={textColorPrimary} textAlign="center" mt="12px">
+            <Text color={textColorPrimary} textAlign="center" mt="12px" fontSize="30px">
               Daffodil International University
               <br/>
               Computer Science & Engineering
@@ -330,7 +330,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center">Higher Secondary Certificate</Text>
+            <Text textAlign="center" fontSize="30px" >Higher Secondary Certificate</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
               Bogura Government Collage
               <br/>
@@ -349,7 +349,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center">Secondary School Certificate</Text>
+            <Text textAlign="center" fontSize="30px" >Secondary School Certificate</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
               Ashekpur C.P High School
               <br/>
@@ -368,7 +368,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center">MERN Development</Text>
+            <Text textAlign="center" fontSize="30px">MERN Development</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
                Creative It Institute
                <br/>
