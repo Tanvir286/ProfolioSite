@@ -96,7 +96,7 @@ export default function Contact() {
               <Text textAlign="center">Linkdin ME @</Text>
               <Text color={textColorPrimary} textAlign="center" mt="5px">
                <Link to="https://www.linkedin.com/in/tanvir-ahamed261" target="_blank" rel="noopener noreferrer">
-                www.linkedin.com/in/tanvir-ahamed261
+               Click Here
                </Link>
               </Text>
             </Box>
@@ -129,8 +129,10 @@ export default function Contact() {
               <Text textAlign="center">EMAIL ME @</Text>
 
               <Text color={textColorPrimary} textAlign="center" mt="5px">
-                tanvirahamed1943@gmail.com
-              </Text>
+                <Link to="mailto:tanvirahamed1943@gmail.com">
+                    tanvirahamed1943@gmail.com
+                </Link>
+             </Text>
             </Box>
           </Flex>
           <Flex
@@ -150,7 +152,9 @@ export default function Contact() {
               </Box>
               <Text textAlign="center">CALL ME @</Text>
               <Text color={textColorPrimary} textAlign="center" mt="5px">
-                (+880)- 1923982877
+                <Link to="tel:+8801923982877">
+                   (+880)- 1923982877
+                </Link>
               </Text>
             </Box>
           </Flex>
