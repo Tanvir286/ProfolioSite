@@ -121,8 +121,8 @@ export default function About() {
               >
                 <LazyLoadImage
                   src={myphoto}
-                  width="100%"
-                  height="100%"
+                  width="90%"
+                  height="90%"
                   alt="Image Alt"
                   effect="blur"
                   style={{ height: "100%" }}
