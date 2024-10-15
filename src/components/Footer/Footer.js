@@ -64,7 +64,7 @@ export default function Footer() {
           _hover={{ opacity: 1 }}
         >
           <Link href="https://github.com/Tanvir286" target="blank">
-            <AiFillGithub fontSize="40px" />
+            <AiFillGithub fontSize="30px" />
           </Link>
         </ListItem>
         <ListItem
@@ -78,7 +78,7 @@ export default function Footer() {
           _hover={{ opacity: 1 }}
         >
           <Link href="https://www.linkedin.com/in/tanvir-ahamed261/" target="blank">
-            <BiLogoLinkedin fontSize="40px" />
+            <BiLogoLinkedin fontSize="30px" />
           </Link>
         </ListItem>
         <ListItem
@@ -92,7 +92,7 @@ export default function Footer() {
           _hover={{ opacity: 1 }}
         >
           <Link href="https://www.facebook.com/profile.php?id=100070985734021" target="blank">
-           <FaSquareFacebook fontSize="40px"/>
+           <FaSquareFacebook fontSize="30px"/>
           </Link>
         </ListItem>
       </List>
