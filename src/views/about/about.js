@@ -169,7 +169,7 @@ export default function About() {
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Degree"
-                    value="Bsc in CSE"
+                    value="Bsc in CSE | CGPA: 3.25 "
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
