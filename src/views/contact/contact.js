@@ -14,6 +14,7 @@ import routes from "../../routes";
 import Navbar from "../../components/Navbar/Navbar";
 import contactimg from "../../assets/contact.png";
 import contactimg1 from "../../assets/contact1.png";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { AiFillPhone, AiOutlineMail } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -86,15 +87,17 @@ export default function Contact() {
             <Box __css={styles}>
               <Box textAlign="center">
                 <Icon
-                  as={FaLocationDot}
+                  as={FaLinkedinIn}
                   width="30px"
                   height="30px"
                   color="inherit"
                 />
               </Box>
-              <Text textAlign="center">Address ME @</Text>
+              <Text textAlign="center">Linkdin ME @</Text>
               <Text color={textColorPrimary} textAlign="center" mt="5px">
-                Zigatola Bus Stand,Satmasjid Road,Dhaka
+               <Link to="https://www.linkedin.com/in/tanvir-ahamed261" target="_blank" rel="noopener noreferrer">
+                www.linkedin.com/in/tanvir-ahamed261
+               </Link>
               </Text>
             </Box>
           </Flex>

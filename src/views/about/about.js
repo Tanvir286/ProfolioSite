@@ -311,8 +311,8 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center">Bachelor's degree</Text>
-            <Text color={textColorPrimary} textAlign="center" mt="12px" fontSize="30px">
+            <Text textAlign="center" fontSize="16px">Bachelor's degree</Text>
+            <Text color={textColorPrimary} textAlign="center" mt="12px" >
               Daffodil International University
               <br/>
               Computer Science & Engineering
@@ -330,7 +330,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center" fontSize="30px" >Higher Secondary Certificate</Text>
+            <Text textAlign="center" fontSize="16px" >Higher Secondary Certificate</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
               Bogura Government Collage
               <br/>
@@ -349,7 +349,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center" fontSize="30px" >Secondary School Certificate</Text>
+            <Text textAlign="center" fontSize="16px" >Secondary School Certificate</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
               Ashekpur C.P High School
               <br/>
@@ -368,7 +368,7 @@ export default function About() {
                 color="inherit"
               />
             </Box>
-            <Text textAlign="center" fontSize="30px">MERN Development</Text>
+            <Text textAlign="center" fontSize="16px">MERN Development</Text>
             <Text color={textColorPrimary} textAlign="center" mt="5px">
                Creative It Institute
                <br/>
