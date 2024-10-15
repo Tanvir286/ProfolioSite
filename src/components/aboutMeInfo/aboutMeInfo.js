@@ -22,7 +22,7 @@ export default function AboutMeInfo(props) {
         flexDirection="column"
         gap="5px"
       >
-        <Text color={textColorSecondary} fontSize="15px" textAlign="center">
+        <Text color={textColorSecondary} fontSize="20px" textAlign="center">
           {title}
         </Text>
         <Text color={textColorPrimary} fontSize="16px" textAlign="center">
