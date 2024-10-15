@@ -121,8 +121,8 @@ export default function About() {
               >
                 <LazyLoadImage
                   src={myphoto}
-                  width="90%"
-                  height="90%"
+                  width="100%"
+                  height="100%"
                   alt="Image Alt"
                   effect="blur"
                   style={{ height: "100%" }}
@@ -158,7 +158,7 @@ export default function About() {
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Location"
-                    value="Dhanmondi27, Dhaka"
+                    value="Zigatola Bus Stand,Satmasjid Road,Dhaka"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
@@ -181,6 +181,7 @@ export default function About() {
           </Grid>
         </Flex>
 
+
         <Flex
           direction="row"
           justifyContent="center"
@@ -188,9 +189,11 @@ export default function About() {
           mb="40px"
         >
           <Text color={textColorPrimary} fontSize="2em" textAlign="center">
-            {"<MY SKILLSET/>"}
+            {"<Front-End/>"}
           </Text>
         </Flex>
+
+
         <SimpleGrid
           columns={{ base: 2, md: 2, lg: 3, xl: 6, "2xl": 6 }}
           gap="20px"
@@ -206,6 +209,27 @@ export default function About() {
           <TechStackCard imagepath={react} />
           <TechStackCard imagepath={Next} />
           <TechStackCard imagepath={typescript} />
+        </SimpleGrid>
+        <Flex
+          direction="row"
+          justifyContent="center"
+          alignItems="center"
+          mb="40px"
+        >
+          <Text color={textColorPrimary} fontSize="2em" textAlign="center">
+            {"<Back-End/>"}
+          </Text>
+        </Flex>
+
+
+        <SimpleGrid
+          columns={{ base: 2, md: 2, lg: 3, xl: 6, "2xl": 6 }}
+          gap="20px"
+          mb="20px"
+          align={{ base: "center", xl: "center" }}
+          justify={{ base: "center", xl: "center" }}
+        >
+         
           <TechStackCard imagepath={cpp} />
           <TechStackCard imagepath={node} />
           <TechStackCard imagepath={express} background="white" />
