@@ -74,7 +74,7 @@ export default function Projects() {
             projectName={"ACP HIGH SCHOOL"}
             aboutProject={"The website is focused on a high school environment."}
             techStack={"TAILWIND CSS,JAVASCRIPT,REACT JS"}
-            projectLiveLink="https://tanvir286.github.io/School-website/"
+            projectLiveLink="https://ashekpurcphs.edu.bd/"
           />
            <ProjectCard
             projectImage={Rent}
