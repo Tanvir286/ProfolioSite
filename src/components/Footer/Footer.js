@@ -11,6 +11,7 @@ import { AiFillGithub, AiFillHeart } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { SiLeetcode } from "react-icons/si";
+import { FaDev } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 
 export default function Footer() {
@@ -63,7 +64,7 @@ export default function Footer() {
           opacity="0.6"
           _hover={{ opacity: 1 }}
         >
-          <Link href="https://github.com/Tanvir286" target="blank">
+          <Link href="https://github.com/Tanvir286" target="_blank">
             <AiFillGithub fontSize="30px" />
           </Link>
         </ListItem>
@@ -77,7 +78,7 @@ export default function Footer() {
           opacity="0.6"
           _hover={{ opacity: 1 }}
         >
-          <Link href="https://www.linkedin.com/in/tanvir-ahamed261/" target="blank">
+          <Link href="https://www.linkedin.com/in/tanvir-ahamed261/" target="_blank">
             <BiLogoLinkedin fontSize="30px" />
           </Link>
         </ListItem>
@@ -91,8 +92,22 @@ export default function Footer() {
           opacity="0.6"
           _hover={{ opacity: 1 }}
         >
-          <Link href="https://www.facebook.com/profile.php?id=100070985734021" target="blank">
+          <Link href="https://www.facebook.com/profile.php?id=100070985734021" target="_blank">
            <FaSquareFacebook fontSize="30px"/>
+          </Link>
+        </ListItem>
+        <ListItem
+          w="80px"
+          h="80px"
+          me={{
+            base: "20px",
+            md: "40px"
+          }}
+          opacity="0.6"
+          _hover={{ opacity: 1 }}
+        >
+          <Link href="https://dev.to/tanvir_ahamed" target="_blank">
+           <FaDev fontSize="30px"/>
           </Link>
         </ListItem>
       </List>
