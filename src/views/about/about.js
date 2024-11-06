@@ -149,7 +149,7 @@ export default function About() {
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Current Organization"
-                    value="KhaganBD"
+                    value="Soft It Care"
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
