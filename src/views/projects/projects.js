@@ -18,6 +18,7 @@ import School from "../../assets/projects/school.png";
 import Rent from "../../assets/projects/Rent.png";
 import Number  from "../../assets/projects/Number Game.png";
 import Find from "../../assets/projects/Find.png";
+import Eco from "../../assets/projects/eco.png";
 
 
 import Chain from "../../assets/projects/chain.png";
@@ -84,6 +85,14 @@ export default function Projects() {
             projectLiveLink="https://find-home-bd.web.app/"
             projectLink="https://github.com/Tanvir286/Find_BD"
           />
+           <ProjectCard
+            projectImage={Eco}
+            projectName={"Shofy Ecommerce"}
+            aboutProject={"Add Cart,Update Cart,Filter & Order"}
+            techStack={"Next JS,TAILWIND CSS,Shadcn/UI"}
+            projectLiveLink="https://shofy-lilac.vercel.app/"
+            
+          />
           <ProjectCard
             projectImage={Ecommerce}
             projectName={"OREBI ECOMMERCE"}
@@ -99,14 +108,6 @@ export default function Projects() {
             techStack={"HTML,CSS,JAVASCRIPT"}
             projectLiveLink="https://number-guess-game-one.vercel.app/"
             projectLink="https://github.com/Tanvir286/Number-Guess-Game"
-          />
-          <ProjectCard
-            projectImage={Find}
-            projectName={"FIND LOST PERSON"}
-            aboutProject={"The website connects national and international missing persons investigations."}
-            techStack={"HTML,CSS,JAVASCRIPT"}
-            projectLiveLink="https://tanvir286.github.io/Name-Search-Javascript/"
-            projectLink="https://github.com/Tanvir286/Name-Search-Javascript"
           />
         </SimpleGrid>
         <Flex
