@@ -169,7 +169,7 @@ export default function About() {
                   <AboutMeInfo
                     boxShadow={cardShadow}
                     title="Degree"
-                    value="Bsc in CSE | CGPA: 3.25 "
+                    value="Bsc in CSE | CGPA: 3.23 "
                   />
                   <AboutMeInfo
                     boxShadow={cardShadow}
@@ -317,7 +317,7 @@ export default function About() {
               <br/>
               Computer Science & Engineering
               <br/>
-              May 2020 - June 2024 Result: 3.25
+              May 2020 - June 2024 Result: 3.23
               <br/>
             </Text> 
           </Box>
