@@ -20,7 +20,7 @@ export default function Resume() {
 
   const handleDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1k-iJsRT03NPwDVFh9QvyoIoAetx6UUph/view?usp=sharing";
+      "";
   };
 
   return (
@@ -36,7 +36,7 @@ export default function Resume() {
             borderRadius="md"
           >
             <iframe
-              src="https://drive.google.com/file/d/1k-iJsRT03NPwDVFh9QvyoIoAetx6UUph/preview"
+              src=""
               title="Resume"
               width="100%"
               height="100%"
