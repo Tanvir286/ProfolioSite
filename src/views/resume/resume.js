@@ -8,7 +8,7 @@ export default function Resume() {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-  });
+  }, []);
 
   const getActiveRoute = (routes) => {
     for (let i = 0; i < routes.length; i++) {
@@ -20,7 +20,7 @@ export default function Resume() {
 
   const handleDownload = () => {
     window.location.href =
-      "";
+      "https://drive.google.com/uc?export=download&id=1lSvJ-MTlKK0ugwuh7w05Guiyg4pS7F-M";
   };
 
   return (
@@ -36,7 +36,7 @@ export default function Resume() {
             borderRadius="md"
           >
             <iframe
-              src=""
+              src="https://drive.google.com/file/d/1lSvJ-MTlKK0ugwuh7w05Guiyg4pS7F-M/preview"
               title="Resume"
               width="100%"
               height="100%"
