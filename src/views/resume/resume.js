@@ -20,7 +20,7 @@ export default function Resume() {
 
   const handleDownload = () => {
     window.location.href =
-      "https://drive.google.com/uc?export=download&id=1lSvJ-MTlKK0ugwuh7w05Guiyg4pS7F-M";
+      "https://drive.google.com/drive/folders/1VqstDesDt44MIvO7H5BV4oiUidi5yQMB";
   };
 
   return (
