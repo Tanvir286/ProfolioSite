@@ -156,7 +156,7 @@ export default function Dashboard() {
                   >
                     I am a{" "}
                     <Text display="inline-flex" color={highlightTextColor}>
-                      Front-End Developer
+                      Full-Stack Developer
                     </Text>
                   </Text>
                 </Box>
