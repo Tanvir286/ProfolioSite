@@ -96,7 +96,7 @@ export default function Contact() {
               </Box>
               <Text textAlign="center">LINKDIN ME @</Text>
               <Text color={textColorPrimary} textAlign="center" mt="5px">
-               <Link to="https://www.linkedin.com/in/tanvir286" target="_blank" rel="noopener noreferrer">
+               <Link to="https://www.linkedin.com/in/tanvir286/" target="_blank" rel="noopener noreferrer">
                Click Here
                </Link>
               </Text>
