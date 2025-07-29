@@ -131,7 +131,7 @@ export default function Contact() {
 
               <Text color={textColorPrimary} textAlign="center" mt="5px">
                 <Link to="mailto:tanvirahamed1943@gmail.com">
-                    tanvirahamed1943@gmail.com
+                    tanvirdiu200@gmail.com
                 </Link>
              </Text>
             </Box>
