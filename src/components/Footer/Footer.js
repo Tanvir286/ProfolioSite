@@ -78,7 +78,7 @@ export default function Footer() {
           opacity="0.6"
           _hover={{ opacity: 1 }}
         >
-          <Link href="https://www.linkedin.com/in/tanvir-ahamed261/" target="_blank">
+          <Link href="https://www.linkedin.com/in/tanvirahamed286/" target="_blank">
             <BiLogoLinkedin fontSize="30px" />
           </Link>
         </ListItem>
