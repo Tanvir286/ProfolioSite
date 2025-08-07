@@ -72,7 +72,7 @@ export default function Projects() {
          
           <ProjectCard
             projectImage={School}
-            projectName={"ACP HIGH SCHOOLs"}
+            projectName={"ACP HIGH SCHOOL"}
             aboutProject={"The website is focused on a high school environment."}
             techStack={"TAILWIND CSS,JAVASCRIPT,REACT JS"}
             projectLiveLink="https://ashekpurcphs.edu.bd/"
@@ -135,7 +135,7 @@ export default function Projects() {
           />
           <ProjectCard
             projectImage={Optional}
-            projectName={"Javascript Optional Chaining"}
+            projectName={"Javascript Optional Chaining "}
             aboutProject={"This blog is about allows developers to wrap potentially problematic code within a “try” block and specify the course of action in a “catch” block should any errors occur"}
             projectLink="https://dev.to/tanvir_ahmed_286/javascript-optional-chaning-3m0p"
           />
