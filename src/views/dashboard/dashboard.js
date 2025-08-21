@@ -34,7 +34,7 @@ export default function Dashboard() {
       author: "Abraham Lincoln, type.fit",
     },
     {
-      text: "Difficulties increase the nearer we get to the goal.",
+      text: "Difficulties the nearer we get to the goal.",
       author: "Johann Wolfgang von Goethe, type.fit",
     },
     {
