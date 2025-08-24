@@ -43,7 +43,7 @@ export default function Dashboard() {
     },
     {
       text: "Be the chief but never the lord.",
-      author: "Lao Tzu, type.fit",
+      author: "Lao Tzu, type",
     },
     {
       text: "Nothing happens unless first we dream.",
