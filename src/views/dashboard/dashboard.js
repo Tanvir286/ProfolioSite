@@ -54,7 +54,7 @@ export default function Dashboard() {
       author: "Aristotle, type.fit",
     },
     {
-      text: "Life is a learning experience, only if you learn.",
+      text: "Life is a learnin experience, only if you learn.",
       author: "Yogi Berra",
     },
     {
