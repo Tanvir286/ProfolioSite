@@ -23,7 +23,7 @@ export default function Dashboard() {
   let quotes = [
     {
       text: "Genius is one percent inspiration and ninety-nine percent perspiration.",
-      author: "Thomas Edison, type.fit",
+      author: "Thomas Edison,type.fit",
     },
     {
       text: "You can observe a lot just by watching.",
@@ -31,7 +31,7 @@ export default function Dashboard() {
     },
     {
       text: "A house divided against itself cannot stand.",
-      author: "Abraham Lincoln, type.fit",
+      author: "Abraham Lincln, type.fit",
     },
     {
       text: "Difficulties the nearer we get to the goal.",
